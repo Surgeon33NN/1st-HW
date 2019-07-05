@@ -1,0 +1,111 @@
+﻿* {
+background-color: teal;
+color: white;
+}
+
+#header_1, #header_2 {
+background-color: teal;
+height: 150px;
+border-radius: 5px;
+border: 10px solid blue;
+margin-bottom: 10px;
+box-sizing: border-box;
+float: left;
+}
+
+#header_1 {
+width: 20%;
+margin-left: 0;
+margin-right: 0;
+font-size: 1.4em;
+padding: 0;
+border: 10px solid red;
+font-weight: normal;
+font-family: Comic Sans MS, sans-serif;
+text-align: justify;
+word-spacing: 5 px;
+letter-spacing: 5px;
+background-color: teal;
+
+}
+
+#header_2 {
+width: 80%;
+font-size: 1.4em;
+padding: 10px;
+font-weight: normal;
+font-family: Comic Sans MS, sans-serif;
+color: white;
+text-align: right;
+word-spacing: 10 px;
+letter-spacing: 5px;
+}
+
+article, aside {
+background-color: teal;
+height: 630px;
+border-radius: 5px;
+margin-bottom: 10px;
+box-sizing: border-box;
+float: left;
+}
+
+article {
+width: 70%;
+margin-left: 0;
+margin-right: 0;
+padding: 5px;
+border: 10px solid orange;
+background-color: teal;
+line-height: 200%;
+font-weight: normal;
+font-size: 1.4em;
+font-family: Comic Sans MS, sans-serif;
+text-align: left;
+word-spacing: 10 px;
+letter-spacing: 5px;
+overflow: auto;
+}
+
+aside {
+width: 30%;
+font-size: 1.4em;
+padding: 10px;
+font-weight: normal;
+border: 10px solid blue;
+font-family: Comic Sans MS, sans-serif;
+text-align: left;
+word-spacing: 10 px;
+letter-spacing: 5px;
+background-image: url(stars.png);
+}
+aside p {
+background-image: url(stars.png);
+}
+aside p a {
+background-image: url(stars.png);
+}
+
+aside a {
+background-image: url(stars.png);
+}
+
+#avatar {
+position: relative; 
+}
+
+article ol {
+list-style-position: inside;
+list-style-type: decimal;
+}
+
+.textStyles {
+font-size: 1.4em;
+font-weight: normal;
+font-family: Comic Sans MS, sans-serif;
+text-align: left;
+word-spacing: 10 px;
+letter-spacing: 5px;
+line-height: 200%;
+}
+
